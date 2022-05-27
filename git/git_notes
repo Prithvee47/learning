@@ -1,3 +1,4 @@
-//To clone git repository from website to local file system.
-1. Go to Git CMD
-2. Run the command "git clone <URL>""
+-To clone git repository from website to local file system.
+*1. Go to Git CMD
+*2. Type the directory of the place where you want the git clone to be
+*3. Run the command "git clone <URL"

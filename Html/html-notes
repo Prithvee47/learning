@@ -1,0 +1,211 @@
+--------------------------------------------------OPENING OF A HTML DOCUMENT :--------------------------------------------------
+
+-- <!DOCTYPE html> = defines the type of the document
+-- <html> = starting tag of a html document
+-- <head> = contains information of the document
+-- <title> = The title for the webpage
+-- <body> = inside the <body> tag lies all hte contents of the html file
+-- </TAG NAME> = putting a / before any tag closes the tag
+-- Basic html opening structure :
+                 <!DOCTYPE html>
+                 <html>
+                 <head>
+                 <title>This is the title of the Document</title>
+                 </head>
+                 <body>
+                 <h1>This is a heading</h1>
+                 <p>Document content goes here.....</p>
+                 </body>
+                 </html>
+
+-------------------------------------------------TAGS INSIDE THE BODY :--------------------------------------------------
+
+-- "<h1><h2><h3><h4><h5><h6>" = -heading TAGS
+                               -<h6>is smaller than<h2>
+-- "<p>" = The <p>(paragraph tag) is used for straucturing our paragraphs
+-- "Lorem ipsum" = this is dummy text used to fill up spaces where there will be text.
+-- "<br>" = the <br> tag breaks a line in between paragraphs.
+             - the <br> tag doesn't have a closing tag
+          ex : code :<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+               *result:
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+-- "<hr>" = The <hr> tag creates a horizontal line between the content above and the below the <hr> tag.
+-- "<pre>"= everything that is written <pre> tag will be displayed the same way it is written in the text editor.
+            -the font and font size are the same as in the text editor
+            ex :
+             <pre>
+               hi
+               hello world
+               my first code
+             </pre>
+           *result :
+           hi
+           hello world
+           my first code
+
+           *without <pre> tag :
+             *result :
+          hi hello world my first code
+-- "&nbsp;" = Suppose you want to use the phrase "12 Angry Men."
+              Here, you would not want a browser to split the "12, Angry" and "Men" across two lines
+              In cases, where you do not want the client browser to break text, you should use a nonbreaking space entity &nbsp; instead of a normal space.
+              For example, when coding the "12 Angry Men" in a paragraph, you should use something similar to the following code:
+              <p>An example of this technique appears in the movie "12&nbsp;Angry&nbsp;Men."</p>
+
+----------------------------HTML Tag vs. Element------------------------------------
+ -An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag.
+      -For example, <p> is starting tag of a paragraph and </p> is closing tag of the same paragraph but
+      -<p>This is paragraph</p> is a paragraph element.
+
+--------------------------- HTML – ATTRIBUTES-----------------------------
+  - The id attribute of an HTML tag can be used to uniquely identify any element within an HTML page.
+  - The id of an element can be used to insert the Element in the CSS code to style the contents within the specified id
+   - ex :<div id="comment-box"></div>
+- The title attribute gives a suggested title for the element. They syntax for the title attribute is similar as explained for id attribute:
+- The class attribute is used to associate an element with a style sheet, and specifies the class of element.
+
+---------------------------The style Attribute---------------------------
+ - The style attribute allows you to write css code within the html document by writing the css code withing <style></style>.
+  - you can also edit a particular tag by adding style next to its element
+    ex : <p style="font-family:arial; color:#FF0000;">Lorem ipsum</p>
+
+-------------------------Generic Attributes :-------------------------
+attributes that are readily usable with many of the HTML tags
+
+ATTRIBUTE            OPTIONS                            FUNCTION
+align                right, left, center                Horizontally aligns tags
+valign               top, middle, bottom                Vertically aligns tags within an HTML element
+bgcolor              numeric, hexidecimal, RGB values   Places a background color behind an element
+background           URL                                Places a background image behind an element
+id                   Anything you want to name it       Names an element for use with Cascading Style Sheets.
+class                Anything you want to name it       Classifies an element for use with Cascading Style Sheets.
+width                Numbers with units                 Specifies the width of tables, images, or table cells.
+height               Numbers wuth units                 Specifies the height of tables, images, or table cells.
+Title                User defined                      "pop-up" title of the elements.
+
+---------------------------FORMATTING :-----------------------------------
+Bold Text :<b></b>
+-text within <b></b> is displayed in bold.
+
+Italic Text :<i></i>
+-text within <i></i> is italicized.
+
+Underlined Text : <u></u>
+- text within <u></u> is Underlined.
+
+Strike Text : <strike></strike>
+- text within <strike></strike> is displayed with strikethrough, which is a thin line through the text.
+
+Monospaced Font : <tt></tt>
+- text within <tt></tt> is written in monoscaped font.
+
+Superscript Text : <sup></sup>
+- text within <sup></sup> is written in superscript; the font size used is the same size as the characters
+  surrounding it but is displayed half a character's height above the other characters.
+
+Subscript Text : <sub></sub>
+- text within <sub></sub> is written in subscript; the font size used is the same as the characters
+  surrounding it, but is displayed half a character's height beneath the other characters.
+
+Larger Text : <big></big>
+- text within <big></big> is displayed one font larger than the rest of the text surrounding it.
+
+Smaller Text : <small></small>
+- text within <small></small> is displayed one font size smaller than the rest of the text surrounding it.
+
+--GROUPING CONTENTS :
+  -  <div><div> & <span></span> elements allow you to group many elments together under one parent div or span element so that
+     it is easier to edit all the elements with the same style by just linking parent elemnt to css.
+
+
+-------------------------PHRASE TAGS :-----------------------------
+Emphasized Text : <em></em>
+- text within <em></em> is displayed emphasized by iitalicizing and inceasing font size of the text.
+
+Marked Text : <mark></mark>
+-text within <mark></mark> is displayed highlighted with yellow ink.
+
+Strong Text : <strong></strong>
+- text within <strong></strong> is displayed in bold and is increased in font size.
+
+Text Abbreviation : <abbr title=""></abbr>
+- ex : <p>My best friend's name is <abbr title="Abhishek">Abhy</abbr>.</p>
+- when you hover "abhy" is displays "Abhishek" in a dialouge box below it.
+
+
+--COMPUTER CODE : <code></code>
+-If you want to write any code that has to appear on the web page use the <code></code> to write it between them
+- If you do not use the <code></code> , no code will appear on the web page.
+
+--Address : <address class=""></address>
+- any text within <address class=""></address> is displayed in italicized manner with grey font color.
+
+---------------------------META TAGS-------------------------
+- meta tags are present in betwenn <head></head>
+
+- attribute   description
+  Name        Name for the property. Can be anything. Examples include, keywords, description, author, revised, generator etc.
+  content     Specifies the property's value.
+  scheme      Specifies a scheme to interpret the property's value (as declared in the content attribute).
+  http-equiv  Used for http response message headers. For example, http-equiv can be used to refresh the page or to set a cookie.
+              Values include content-type, expires, refresh and set-cookie.
+
+---------------------------Specifying Keywords---------------------------
+-You can use <meta> tag to specify important keywords related to the document and later these keywords are used by the search engines while indexing your webpage for searching purpose.
+-<meta name="keywords" content="HTML, Meta Tags, Metadata" />
+- the website contain this Metadata will be displayed whenever a person searches any of these (HTML, Meta Tags, Metadata)
+
+---------------------------Document Description---------------------------
+- You can use <meta> tag to give a short description about the document. This again can be used by various search engines while indexing your webpage for searching purpose.
+- <meta name="description" content="Learning about Meta Tags." />
+- the website containing this metadata will be displayed whenever a person searches something about "leaning about meta tags" (let's say how to learn about meta tags)
+
+---------------------------Document Revision Date-------------------------
+- You can use <meta> tag to give information about when last time the document was updated. This information can be used by various web browsers while refreshing your webpage.
+- <meta name="revised" content="Tutorialspoint, 3/7/2014" />
+
+---------------------------Document Refreshing-------------------------
+- A <meta> tag can be used to specify a duration after which your web page will keep refreshing automatically.
+- <meta http-equiv="refresh" content="5" />
+- the https-equiv is like the function that you want the page to do ( which here is refresh) and content here is the number of seconds after whihc the page has to refresh
+
+---------------------------Page Redirection---------------------------
+- a <meta> tag can also be used to redirect he page to another page (which we set) after a particular number of seconds.
+- <meta http-equiv="refresh" content="5; url=http://www.google.com" />
+- so in this case the page will be redirected to google in 5 seconds.
+
+---------------------------Setting author name---------------------------
+- You can also set a author name <meta> tag
+- <meta ame="author" content="Prithvee Ganesh" />
+
+---------------------------specify character set---------------------------
+- A character set is a set of characters that helps in character encoding.
+- Character encdoing is the process of assigning numbers too graphical characters, especially the written characters of human language, allowing them to be stored,transmitted,
+  and transformed using digital computers.
+- You can use <meta> tag to specify character set used within the webpage.
+- <meta charset="utf-8">
+- chraset is the shorthand for character set and utf-8 is one of the charset.
+- Big5(chinese characters) is another charset.
+
+---------------------------COMMENTS---------------------------------------
+- Any between <!-- and --> is known as a comment .
+- A comment has nothing to do with the actual code.
+- it is a dummy text to indicate sections of a document, and any other notes to anyone looking at the code.
+- comments are ignored by the browsers.
+- ex :
+     <!-- Document Header Starts -->
+     <!-- Document Header Ends -->
+
+-There should not be space between the left angle bracket and the exclamation mark,or else it will be considered as invalid comment.
+
+---------------------------Multiline comments---------------------------
+- Multiline comments are just like single like comments but they have Multiple lines.
+- ex :
+      <!--
+      This is a multiline comment and it can
+      span through as many as lines you like.
+      -->
+
+-------------------------IMAGES-----------------------------

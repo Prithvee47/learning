@@ -1,0 +1,28 @@
+-------------------------------------Add css to HTML document--------------------------------------------------
+----------Embedded CSS - <style> Element-------------------
+- You can put your CSS rules into an HTML document using the <style> element.
+- This tag is placed inside the <head>...</head> tags.
+- Rules defined using this syntax will be applied to all the elements available in the document.
+----------Inline Css - <style> element----------------------
+- you can also use the <style> in the between  any HTML element to add css rules.
+- These rules will be applied to that element only.
+----------External Css- <link> element----------------------
+- The <link> element can be used to include an external css file in the HTML document
+- An external style sheet is a separate text file with .css extension.
+- You can define all the Style rules within this text file and then you can include this file in any HTML document using <link> element.
+- you should add the url of the stylesheet using the href attribute.
+- you can also use @import to add an external css file
+- ex  : @import "index.css";
+- this should be placed between the <head> tag.
+
+
+IMPORTANT POINTS :
+
+- inline style sheet takes the highest priority.
+- So, it will override any rule defined in <style>...</style> tags or the rules defined in any external style sheet file.
+- Any rule defined in <style>...</style> tags will override the rules defined in any external style sheet file.
+- Any rule defined in the external style sheet file takes the lowest priority, and the rules defined in this file will be applied only when the above two rules are not applicable.
+
+
+-------------------------------COMMENTS IN CSS-----------------------------------------------------------------------------------------------------
+- You can use /* ....*/ to add multi-line comments

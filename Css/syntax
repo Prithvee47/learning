@@ -1,0 +1,19 @@
+--------------------------------------------------------------------SYNTAX-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Selector               : A selector is an HTML tag at which a style will be applied. This could be any tag like <h1> or <table> etc.
+Property               : A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border, etc.
+Value                  : Values are assigned to properties. For example, color property can have the value either red or #F1F1F1 etc.
+*                      : Universal selector.This selects the whole html document
+Descendant selectors   : to apply a style rule to a particular element only when it lies inside a particular element.
+                       : div a {
+                          color: #000
+                       }
+.                      : class selector.You can define style rules based on the class attribute of the elements.
+#                      : Id selector
+>                      : Child selectors.
+                       : body > p {
+                                    color: #000;
+                                    }
+;                     : closing of a property and value pairs.
+,                     : To group elements with the same css properties we just need to add a comma(,) after the first element leave a space then add the second element.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

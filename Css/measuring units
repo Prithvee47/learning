@@ -1,0 +1,12 @@
+UNIT            DESCRIPTION
+%               Defines a measurement as a percentage relative to another value, typically an enclosing element.
+cm              Defines a measurement in centimeters.
+em              A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font,
+                if you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt.
+ex              This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter x.
+in              Defines a measurement in inches.
+mm              Defines a measurement in millimeters
+pc              Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.
+pt              Defines a measurement in points. A point is defined as 1/72nd of an inch.
+px              Defines a measurement in screen pixels
+    

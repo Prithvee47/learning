@@ -48,11 +48,7 @@
            *without <pre> tag :
              *result :
           hi hello world my first code
--- "&nbsp;" = Suppose you want to use the phrase "12 Angry Men."
-              Here, you would not want a browser to split the "12, Angry" and "Men" across two lines
-              In cases, where you do not want the client browser to break text, you should use a nonbreaking space entity &nbsp; instead of a normal space.
-              For example, when coding the "12 Angry Men" in a paragraph, you should use something similar to the following code:
-              <p>An example of this technique appears in the movie "12&nbsp;Angry&nbsp;Men."</p>
+
 
 ----------------------------HTML Tag vs. Element------------------------------------
  -An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag.

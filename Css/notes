@@ -1,3 +1,22 @@
+--------------------------------------------------------------------SYNTAX-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Selector               : A selector is an HTML tag at which a style will be applied. This could be any tag like <h1> or <table> etc.
+Property               : A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border, etc.
+Value                  : Values are assigned to properties. For example, color property can have the value either red or #F1F1F1 etc.
+*                      : Universal selector.This selects the whole html document
+Descendant selectors   : to apply a style rule to a particular element only when it lies inside a particular element.
+                       : div a {
+                          color: #000
+                       }
+.                      : class selector.You can define style rules based on the class attribute of the elements.
+#                      : Id selector
+>                      : Child selectors.
+                       : body > p {
+                                    color: #000;
+                                    }
+;                     : closing of a property and value pairs.
+,                     : To group elements with the same css properties we just need to add a comma(,) after the first element leave a space then add the second element.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------Add css to HTML document--------------------------------------------------
 ----------Embedded CSS - <style> Element-------------------
 - You can put your CSS rules into an HTML document using the <style> element.
@@ -16,7 +35,7 @@
 - this should be placed between the <head> tag.
 
 
-IMPORTANT POINTS :
+--------IMPORTANT POINTS :
 
 - inline style sheet takes the highest priority.
 - So, it will override any rule defined in <style>...</style> tags or the rules defined in any external style sheet file.
@@ -26,3 +45,17 @@ IMPORTANT POINTS :
 
 -------------------------------COMMENTS IN CSS-----------------------------------------------------------------------------------------------------
 - You can use /* ....*/ to add multi-line comments
+
+
+----------------------------MEASURING UNITS--------------------------------------------------------------------
+UNIT            DESCRIPTION
+%               Defines a measurement as a percentage relative to another value, typically an enclosing element.
+cm              Defines a measurement in centimeters.
+em              A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font,
+                if you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt.
+ex              This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter x.
+in              Defines a measurement in inches.
+mm              Defines a measurement in millimeters
+pc              Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.
+pt              Defines a measurement in points. A point is defined as 1/72nd of an inch.
+px              Defines a measurement in screen pixels

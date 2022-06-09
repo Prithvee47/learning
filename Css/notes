@@ -16,7 +16,6 @@ Descendant selectors   : to apply a style rule to a particular element only when
 ;                     : closing of a property and value pairs.
 ,                     : To group elements with the same css properties we just need to add a comma(,) after the first element leave a space then add the second element.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------Add css to HTML document--------------------------------------------------
 ----------Embedded CSS - <style> Element-------------------
 - You can put your CSS rules into an HTML document using the <style> element.
@@ -34,7 +33,6 @@ Descendant selectors   : to apply a style rule to a particular element only when
 - ex  : @import "index.css";
 - this should be placed between the <head> tag.
 
-
 --------IMPORTANT POINTS :
 
 - inline style sheet takes the highest priority.
@@ -42,20 +40,52 @@ Descendant selectors   : to apply a style rule to a particular element only when
 - Any rule defined in <style>...</style> tags will override the rules defined in any external style sheet file.
 - Any rule defined in the external style sheet file takes the lowest priority, and the rules defined in this file will be applied only when the above two rules are not applicable.
 
-
 -------------------------------COMMENTS IN CSS-----------------------------------------------------------------------------------------------------
 - You can use /* ....*/ to add multi-line comments
 
 
-----------------------------MEASURING UNITS--------------------------------------------------------------------
+------------------------------MEASURING UNITS--------------------------------------------------------------------
 UNIT            DESCRIPTION
-%               Defines a measurement as a percentage relative to another value, typically an enclosing element.
-cm              Defines a measurement in centimeters.
-em              A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font,
+%        :      Defines a measurement as a percentage relative to another value, typically an enclosing element.
+cm       :      Defines a measurement in centimeters.
+em       :      A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font,
                 if you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt.
-ex              This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter x.
-in              Defines a measurement in inches.
-mm              Defines a measurement in millimeters
-pc              Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.
-pt              Defines a measurement in points. A point is defined as 1/72nd of an inch.
-px              Defines a measurement in screen pixels
+ex       :       This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter x.
+in       :       Defines a measurement in inches.
+mm       :       Defines a measurement in millimeters
+pc       :       Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.
+pt       :       Defines a measurement in points. A point is defined as 1/72nd of an inch.
+px       :       Defines a measurement in screen pixels
+
+--------------------------------COLORS--------------------------------------------------------------------------
+There are 5 formats of adding colors in a css file. They are :
+* Hex code         - The six digit code after (#) describes the colors
+                   - ex : (white)#000000
+* Short hex code   - Instead of a six digit code. There will only be there digits.
+                   - ex :  (white)#FFF
+* RGB %            - the percentage of RGB (Red , Green, Blue) is known as the RGB %.
+                   - ex : rgb(100%,64%,0%) (orange)
+                   - The 100% represents the percentage of Red  (R)
+                   - The 64% represents the percentage of Green (G)
+                   - The 0% represents the percentage of Blue   (B)
+                   - so , The order of adding percentage is RGB
+* RGB Absolute     - Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+                   - It is exactly like RGB but instead of 100% we have the maximum as 255
+* Keyword          - We can also simpy just add keywords like blue,aqua,orange,etc..,
+                   - ex :  color:aqua;
+
+--------------------------------BACKGROUND----------------------------------------------------------------------
+- You can either add an image to the background or you can set a color as your background.
+- To add a background image we can use the background-image property.
+- ex : background-image:url(/images/bg.jpg);
+- To add a background color we can use the background-color property.
+- ex : background-color:yellow;
+- The background-repeat property is used to control the repetition of an image in the background.
+- ex : background-repeat: repeat-y; (repeat vertically)
+- ex : background-repeat: repeat-x; (repeat horizontally)
+- The background-position property is used to control the position of an image in the background.
+- ex : background-position:100px 200px;
+- The background-attachment property is used to control the scrolling of an image in the background.
+- ex : background-attachment:fixed;
+- The background property is a shorthand to a number od background properties.
+- ex : background:url(/images/bg.jpg) repeat fixed;

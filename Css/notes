@@ -89,3 +89,117 @@ There are 5 formats of adding colors in a css file. They are :
 - ex : background-attachment:fixed;
 - The background property is a shorthand to a number od background properties.
 - ex : background:url(/images/bg.jpg) repeat fixed;
+
+----------------------------------FONTS--------------------------------------------------------------------------
+- The font-family property is used to change the face of a font.
+- ex : font-family:georgia,garamond,serif;
+- In the above example the first priority goes to "georgia" and the second priority goes to "garamond" and the third priority goes to "serif".
+- If the user has georgia it will diaplay georgia font , if not it will display garamond.
+- If the user doesn't have garamond then it will be displayed in serif
+- The font-style property is used to make a font italic or oblique.
+- ex : font-style:italic;
+- The font-variant property is used to create a small-caps effect.
+- ex : font-variant:small-caps;
+- The font-weight property is used to increase or decrease how bold or light a font appears.
+- ex : font-weight:900;
+- The font-size property is used to increase or decrease the size of a font.
+- ex : font-size:20px;
+- The font property is used as shorthand to specify a number of other font properties.
+- ex : font:italic small-caps bold 19px georgia;
+
+------------------------------------TEXT-------------------------------------------------------------------------
+- The following are the properties related to TEXT
+- The color property is used to set the color of a text.
+- ex : color:red;
+- The direction property is used to set the text direction.
+- ex : direction:rtl; (right to left)
+- The letter-spacing property is used to add or subtract space between the letters that make up a word.
+- ex : letter-spacing:5px;
+- The word-spacing property is used to add or subtract space between the words of a sentence.
+- ex : word-spacing:5px;
+- The text-indent property is used to indent the text of a paragraph.
+- ex : text-indent:1cm;
+- The text-align property is used to align the text of a document.
+- ex : text-align:right;
+- The text-decoration property is used to underline, overline, and strikethrough text.
+- ex : text-decoration:underline;
+- ex : text-decoration:line-through; (strikethrough)
+- ex : text-decoration:overline;
+- ex : text-decoration:blink;
+- The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.
+- ex : text-transform:capitalize;
+- ex : text-transform:uppercase;
+- ex : text-transform:lowercase;
+- The white-space property is used to control the flow and formatting of text.
+- ex : white-space:pre;
+- The text-shadow property is used to set the text shadow around a text.
+- ex : text-shadow:4px 4px 8px blue;
+
+----------------------------------------------------------IMAGES--------------------------------------------------------------
+- the following are the properties realted with images
+- The border property is used to set the width of an image border.
+- ex : style="border:0px;"
+- The height property is used to set the height of an image.
+- ex : height:100px;
+- The width property is used to set the width of an image.
+- ex : width:100px;
+- The -moz-opacity property is used to set the opacity of an image.
+- ex : -moz-opacity:0.4;
+
+ ---------------------------------------------------------LINKS---------------------------------------------------------------
+- The :link signifies unvisited hyperlinks.
+- The :visited signifies visited hyperlinks.
+- The :hover signifies an element that currently has the user's mouse pointer hovering over it.
+- The :active signifies an element on which the user is currently clicking.
+
+----------------------------------------------------------TABLES-----------------------------------------------------------------
+- The border-collapse specifies whether the browser should control the appearance of the adjacent borders that touch each other or whether each cell should maintain its style.
+- ex : border-collapse:collapse;
+- ex : border-collapse:separate;
+- The border-spacing specifies the width that should appear between table cells.
+- ex : border-spacing:10px;
+- The caption-side captions are presented in the <caption> element. By default, these are rendered above the table in the document. You use the caption-side property to control the placement of the table caption.
+- ex : caption-side:top;
+- ex : caption-side:bottom;
+- ex : caption-side:left;
+- ex : caption-side:right;
+- The empty-cells specifies whether the border should be shown if a cell is empty.
+- ex : caption-side:left;
+- The table-layout allows browsers to speed up the layout of a table by using the first width properties it comes across for the rest of a column rather than having to load the whole table before rendering it.
+- ex : table-layout: fixed;
+- ex : table-layout: auto;
+
+----------------------------------------------------------BORDERS----------------------------------------------------------------
+- border-bottom-color changes the color of bottom border.
+- border-top-color changes the color of top border.
+- border-left-color changes the color of left border.
+- border-right-color changes the color of right border.
+
+-----------The border-style property------------------------
+  - border-bottom-style changes the style of bottom border.
+  - border-top-style changes the style of top border.
+  - border-left-style changes the style of left border.
+  - border-right-style changes the style of right border.
+
+Styles of border property :
+
+- none: No border. (Equivalent of border-width:0;)
+- solid: Border is a single solid line.
+- dotted: Border is a series of dots.
+- dashed: Border is a series of short lines.
+- double: Border is two solid lines.
+- groove: Border looks as though it is carved into the page.
+- ridge: Border looks the opposite of groove.
+- inset: Border makes the box look like it is embedded in the page.
+- outset: Border makes the box look like it is coming out of the canvas.
+- hidden: Same as none, except in terms of border-conflict resolution for table elements
+
+---------------------------------------------MARGINS--------------------------------------------------
+- The margin specifies a shorthand property for setting the margin properties in one declaration.
+- ex : {margin: 15px;}   ; all four margins will be 15px
+- ex : {margin: 10px 2%} ; top and bottom margin will be 10px, left and right margin will be 2% of the total width of the document. 
+- ex :
+- The margin-bottom specifies the bottom margin of an element.
+- The margin-top specifies the top margin of an element.
+- The margin-left specifies the left margin of an element.
+- The margin-right specifies the right margin of an element.

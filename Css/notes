@@ -60,11 +60,11 @@ px       :       Defines a measurement in screen pixels
 --------------------------------COLORS--------------------------------------------------------------------------
 There are 5 formats of adding colors in a css file. They are :
 * Hex code         - The six digit code after (#) describes the colors
-                   - ex : (white)#000000
+                   -- ex : (white)#000000
 * Short hex code   - Instead of a six digit code. There will only be there digits.
-                   - ex :  (white)#FFF
+                   -- ex :  (white)#FFF
 * RGB %            - the percentage of RGB (Red , Green, Blue) is known as the RGB %.
-                   - ex : rgb(100%,64%,0%) (orange)
+                   -- ex : rgb(100%,64%,0%) (orange)
                    - The 100% represents the percentage of Red  (R)
                    - The 64% represents the percentage of Green (G)
                    - The 0% represents the percentage of Blue   (B)
@@ -72,79 +72,79 @@ There are 5 formats of adding colors in a css file. They are :
 * RGB Absolute     - Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
                    - It is exactly like RGB but instead of 100% we have the maximum as 255
 * Keyword          - We can also simpy just add keywords like blue,aqua,orange,etc..,
-                   - ex :  color:aqua;
+                   -- ex :  color:aqua;
 
 --------------------------------BACKGROUND----------------------------------------------------------------------
 - You can either add an image to the background or you can set a color as your background.
 - To add a background image we can use the background-image property.
-- ex : background-image:url(/images/bg.jpg);
+-- ex : background-image:url(/images/bg.jpg);
 - To add a background color we can use the background-color property.
-- ex : background-color:yellow;
+-- ex : background-color:yellow;
 - The background-repeat property is used to control the repetition of an image in the background.
-- ex : background-repeat: repeat-y; (repeat vertically)
-- ex : background-repeat: repeat-x; (repeat horizontally)
+-- ex : background-repeat: repeat-y; (repeat vertically)
+-- ex : background-repeat: repeat-x; (repeat horizontally)
 - The background-position property is used to control the position of an image in the background.
-- ex : background-position:100px 200px;
+-- ex : background-position:100px 200px;
 - The background-attachment property is used to control the scrolling of an image in the background.
-- ex : background-attachment:fixed;
+-- ex : background-attachment:fixed;
 - The background property is a shorthand to a number od background properties.
-- ex : background:url(/images/bg.jpg) repeat fixed;
+-- ex : background:url(/images/bg.jpg) repeat fixed;
 
 ----------------------------------FONTS--------------------------------------------------------------------------
 - The font-family property is used to change the face of a font.
-- ex : font-family:georgia,garamond,serif;
+-- ex : font-family:georgia,garamond,serif;
 - In the above example the first priority goes to "georgia" and the second priority goes to "garamond" and the third priority goes to "serif".
 - If the user has georgia it will diaplay georgia font , if not it will display garamond.
 - If the user doesn't have garamond then it will be displayed in serif
 - The font-style property is used to make a font italic or oblique.
-- ex : font-style:italic;
+-- ex : font-style:italic;
 - The font-variant property is used to create a small-caps effect.
-- ex : font-variant:small-caps;
+-- ex : font-variant:small-caps;
 - The font-weight property is used to increase or decrease how bold or light a font appears.
-- ex : font-weight:900;
+-- ex : font-weight:900;
 - The font-size property is used to increase or decrease the size of a font.
-- ex : font-size:20px;
+-- ex : font-size:20px;
 - The font property is used as shorthand to specify a number of other font properties.
-- ex : font:italic small-caps bold 19px georgia;
+-- ex : font:italic small-caps bold 19px georgia;
 
 ------------------------------------TEXT-------------------------------------------------------------------------
 - The following are the properties related to TEXT
 - The color property is used to set the color of a text.
-- ex : color:red;
+-- ex : color:red;
 - The direction property is used to set the text direction.
-- ex : direction:rtl; (right to left)
+-- ex : direction:rtl; (right to left)
 - The letter-spacing property is used to add or subtract space between the letters that make up a word.
-- ex : letter-spacing:5px;
+-- ex : letter-spacing:5px;
 - The word-spacing property is used to add or subtract space between the words of a sentence.
-- ex : word-spacing:5px;
+-- ex : word-spacing:5px;
 - The text-indent property is used to indent the text of a paragraph.
-- ex : text-indent:1cm;
+-- ex : text-indent:1cm;
 - The text-align property is used to align the text of a document.
-- ex : text-align:right;
+-- ex : text-align:right;
 - The text-decoration property is used to underline, overline, and strikethrough text.
-- ex : text-decoration:underline;
-- ex : text-decoration:line-through; (strikethrough)
-- ex : text-decoration:overline;
-- ex : text-decoration:blink;
+-- ex : text-decoration:underline;
+-- ex : text-decoration:line-through; (strikethrough)
+-- ex : text-decoration:overline;
+-- ex : text-decoration:blink;
 - The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.
-- ex : text-transform:capitalize;
-- ex : text-transform:uppercase;
-- ex : text-transform:lowercase;
+-- ex : text-transform:capitalize;
+-- ex : text-transform:uppercase;
+-- ex : text-transform:lowercase;
 - The white-space property is used to control the flow and formatting of text.
-- ex : white-space:pre;
+-- ex : white-space:pre;
 - The text-shadow property is used to set the text shadow around a text.
-- ex : text-shadow:4px 4px 8px blue;
+-- ex : text-shadow:4px 4px 8px blue;
 
 ----------------------------------------------------------IMAGES--------------------------------------------------------------
 - the following are the properties realted with images
 - The border property is used to set the width of an image border.
-- ex : style="border:0px;"
+-- ex : style="border:0px;"
 - The height property is used to set the height of an image.
-- ex : height:100px;
+-- ex : height:100px;
 - The width property is used to set the width of an image.
-- ex : width:100px;
+-- ex : width:100px;
 - The -moz-opacity property is used to set the opacity of an image.
-- ex : -moz-opacity:0.4;
+-- ex : -moz-opacity:0.4;
 
  ---------------------------------------------------------LINKS---------------------------------------------------------------
 - The :link signifies unvisited hyperlinks.
@@ -154,20 +154,20 @@ There are 5 formats of adding colors in a css file. They are :
 
 ----------------------------------------------------------TABLES-----------------------------------------------------------------
 - The border-collapse specifies whether the browser should control the appearance of the adjacent borders that touch each other or whether each cell should maintain its style.
-- ex : border-collapse:collapse;
-- ex : border-collapse:separate;
+-- ex : border-collapse:collapse;
+-- ex : border-collapse:separate;
 - The border-spacing specifies the width that should appear between table cells.
-- ex : border-spacing:10px;
+-- ex : border-spacing:10px;
 - The caption-side captions are presented in the <caption> element. By default, these are rendered above the table in the document. You use the caption-side property to control the placement of the table caption.
-- ex : caption-side:top;
-- ex : caption-side:bottom;
-- ex : caption-side:left;
-- ex : caption-side:right;
+-- ex : caption-side:top;
+-- ex : caption-side:bottom;
+-- ex : caption-side:left;
+-- ex : caption-side:right;
 - The empty-cells specifies whether the border should be shown if a cell is empty.
-- ex : caption-side:left;
+-- ex : caption-side:left;
 - The table-layout allows browsers to speed up the layout of a table by using the first width properties it comes across for the rest of a column rather than having to load the whole table before rendering it.
-- ex : table-layout: fixed;
-- ex : table-layout: auto;
+-- ex : table-layout: fixed;
+-- ex : table-layout: auto;
 
 ----------------------------------------------------------BORDERS----------------------------------------------------------------
 - border-bottom-color changes the color of bottom border.
@@ -196,10 +196,219 @@ Styles of border property :
 
 ---------------------------------------------MARGINS--------------------------------------------------
 - The margin specifies a shorthand property for setting the margin properties in one declaration.
-- ex : {margin: 15px;}   ; all four margins will be 15px
-- ex : {margin: 10px 2%} ; top and bottom margin will be 10px, left and right margin will be 2% of the total width of the document. 
-- ex :
+-- ex : {margin: 15px;}   ; all four margins will be 15px
+-- ex : {margin: 10px 2%} ; top and bottom margin will be 10px, left and right margin will be 2% of the total width of the document.
+-- ex : {margin: 10px 2% -10px} ; top margin will be 10px, left and right margin will be 2% of the total width , bottom margin will be -10px
+-- ex : {margin: 10px 2% -10px auto} ; top margin will be 10px, right margin will be 2% of the total width,
+                                      bottom margin will be -10px, left margin will be set by the browser.
+
 - The margin-bottom specifies the bottom margin of an element.
+-- ex : margin-bottom: 15px;
 - The margin-top specifies the top margin of an element.
+-- ex : margin-top: 15px;
 - The margin-left specifies the left margin of an element.
+-- ex : margin-left: 15px;
 - The margin-right specifies the right margin of an element.
+-- ex : margin-right: 15px;
+
+------------------------------------------------LISTS---------------------------------------------------
+- The list-style-type allows you to control the shape or appearance of the marker.
+-- ex : list-style-type:circle;
+-- ex : list-style-type:square;
+-- ex : list-style-type:decimal;
+-- ex : list-style-type:lower-alpha;
+-- ex : list-style-type:lower-roman;
+- The list-style-position specifies whether a long point that wraps to a second line should align with the first line or start underneath the start of the marker.
+-- ex : list-style-position:inside;
+-- ex : list-stlye-position:outside;
+- The list-style-image specifies an image for the marker rather than a bullet point or number.
+-- ex : list-style-image: url(/images/bullet.gif);
+- The list-style serves as shorthand for the preceding properties.
+-- ex : list-style: inside square;
+- The marker-offset specifies the distance between a marker and the text in the list.
+-- ex : marker-offset:2em;
+
+---------------------------------------------------PADDINGS---------------------------------------------------
+- The padding-bottom specifies the bottom padding of an element.
+-- ex : padding-bottom: 15px;
+- The padding-top specifies the top padding of an element.
+-- ex : padding-top: 15px;
+- The padding-left specifies the left padding of an element.
+-- ex : padding-left: 15px;
+- The padding-right specifies the right padding of an element.
+-- ex : padding-right: 15px;
+- The padding serves as shorthand for the preceding properties.
+-- ex : padding: 15px; all four padding will be 15px
+-- ex : padding: 10px 2% 10px; 10px = top; 2% = right; 10px =bottom
+
+------------------------------------------------------CURSORS--------------------------------------------------------
+- auto : Shape of the cursor depends on the context area it is over. For example, an ‘I’ over text, a ‘hand’ over a link, and so on.
+-- ex : cursor:auto
+- crosshair : A crosshair or plus sign.
+-- ex : cursor:crosshair
+- default : An arrow
+-- ex : cursor:default
+- Pointer : A pointing hand
+-- ex : cursor:pointer
+- move : The "+" with arrows.
+-- ex : cursor:move
+- e-resize : The cursor indicates that an edge of a box is to be moved right (east).
+-- ex : cursor:e-resize
+- ne-resize : The cursor indicates that an edge of a box is to be moved up and right (north/east).
+-- ex : cursor:ne-resize
+- nw-resize : The cursor indicates that an edge of a box is to be moved up and left (north/west).
+-- ex : cursor:nw-resize
+- n-resize : The cursor indicates that an edge of a box is to be moved up (north).
+-- ex : cursor:n-resize
+- se-resize : The cursor indicates that an edge of a box is to be moved down and right (south/east).
+-- ex : cursor:se-resize
+- sw-resize : The cursor indicates that an edge of a box is to be moved down and left (south/west).
+-- ex : cursor:sw-resize
+- s-resize : The cursor indicates that an edge of a box is to be moved down (south).
+-- ex : cursor:s-resize
+- w-resize : The cursor indicates that an edge of a box is to be moved left (west).
+-- ex : cursor:w-resize
+- text : The I bar
+-- ex : cursor:text
+- wait : An hour glass or loading symbol
+-- ex : cursor:wait
+- help : An question mark or balloon
+-- ex : cursor:help
+
+-------------------------------------------------------OUTLINES-------------------------------------------------
+- The outline-width property is used to set the width of the outline.
+-- ex : outline-width:50px;
+- The outline-style property is used to set the line style for the outline.
+-- The values of the outline style property are :
+--- none: No border. (Equivalent of outline-width:0;)
+--- solid: Outline is a single solid line.
+--- dotted: Outline is a series of dots.
+--- dashed: Outline is a series of short lines.
+--- double: Outline is two solid lines.
+--- groove: Outline looks as though it is carved into the page.
+--- ridge: Outline looks the opposite of groove.
+--- inset: Outline makes the box look like it is embedded in the page.
+--- outset: Outline makes the box look like it is coming out of the canvas.
+--- hidden: Same as none.
+-- ex : outline-style:solid;
+- The outline-color property is used to set the color of the outline.
+-- ex : outline-color:red
+- The outline property is used to set all the above three properties in a single statement.
+-- ex : outline:thin solid red;
+
+---------------------------------------------------------DIMENSION------------------------------------------------
+- The height property is used to set the height of a box.
+-- ex : height:100px
+- The width property is used to set the width of a box.
+-- ex : width:100px
+- The line-height property is used to set the height of a line of text.
+-- ex : line-height:10px;
+- The max-height property is used to set a maximum height that a box can be.
+-- ex : max-height:10px
+- The min-height property is used to set the minimum height that a box can be.
+-- ex : min-height:200px;
+- The max-width property is used to set the maximum width that a box can be.
+-- ex : max-width:100px;
+- The min-width property is used to set the minimum width that a box can be.
+-- ex : min-width:400px;
+
+--------------------------------------------------------SCROLLBARS----------------------------------------------------
+Value                        Description
+visible                      Allows the content to overflow the borders of its containing element.
+hidden                       The content of the nested element is simply cut off at the border of the containing element and no scrollbars is visible.
+scroll                       The size of the containing element does not change, but the scrollbars are added to allow the user to scroll to see the content.
+auto                         The purpose is the same as scroll, but the scrollbar will be shown only if the content does overflow.
+
+---------------------------------------------------------VISIBLITY-------------------------------------------------------
+Value                        Description
+visible                      The box and its contents are shown to the user.
+hidden                       The box and its content are made invisible, although they still affect the layout of the page.
+collapse                     This is for use only with dynamic table columns and row effects.
+
+----------------------------------------------------------POSITIONING-------------------------------------------------------
+---------Relative positioning-----------------------
+--- In relative positioning the object is given its orginal/normal position.
+-- ex : position:relative;
+----------Absolute positioning-----------------------
+--- In absolute positioning the object is taken out of the document flow.
+-- ex : position:absolute;
+----------Fixed positioning---------------------------
+--- In Fixed positioning the object will be fixed in the specified spot even while scrolling.
+-- ex : position:fixed;
+-----------Static positioning-------------------------
+--- If an object is given Static positioning , the object will be not considered in a special way , whihc means properties such as top,left,bottom,etc.., won't affect it.
+-- ex : position:static;
+------------Sticky positioning----------------------------
+--- position: sticky basically acts like relative until an element is scrolled beyond a specific offset, in which case it turns into fixed, causing the element to "stick" to its position instead of being scrolled out of view.
+-- ex : position:sticky
+
+------------------------------------------------------------LAYERS---------------------------------------------------------
+--- The z-index property is used along with the position property to create layers in webapges.
+-- ex : z-index:2;
+--- If an element is given the z-index value as 2 it will be considered as the second layer.
+
+------------------------------------------------------PSEUDO CLASSES------------------------------------------------------
+
+--- :link        : Use this class to add special style to an unvisited link.
+-- ex : :link {color:#000000}
+--- :visited     : Use this class to add special style to a visited link.
+-- ex : :visited {color: #006600}
+--- :hover       : Use this class to add special style to an element when you mouse over it.
+-- ex : :hover {color: #FFCC00}
+--- :active      : Use this class to add special style to an active element.
+-- ex : :active {color: #FF00CC}
+--- :focus       : Use this class to add special style to an element while the element has focus.
+-- ex : :focus {color: #0000FF}
+--- :first-child : Use this class to add special style to an element that is the first child of some other element.
+-- ex : :first-child
+--- :lang        : Use this class to specify a language to use in a specified element.
+-- ex : :lang(en)
+
+-------------------------------------------------------PSEUDO ELEMENTS-------------------------------------------------------
+--- :first-line : Use this element to add special styles to the first line of the text in a selector.
+-- ex : :first-line { text-decoration: underline; }
+--- :first-letter : Use this element to add special style to the first letter of the text in a selector.
+-- ex : :first-letter { font-size: 7px;}
+--- :before : Use this element to insert some content before an element.
+-- ex : :before{content: url(/images/bullet.gif)}
+--- :after : Use this element to insert some content after an element.
+-- ex : :after{content: url(/images/bullet.gif)}
+
+----------------------------------------------------------@RULES-----------------------------------------------------------------
+- The @import rule imports another style sheet into the current style sheet.
+-- ex : @import "index.css"
+- The @charset rule indicates the character set the style sheet uses.
+-- ex : @charset "iso-8859-1"
+- The @font-face rule is used to exhaustively describe a font face for use in a document.
+-- ex : @font-face {font-family: "Scarborough Light";src: url("http://www.font.site/s/scarbo-lt");}
+- The !important rule indicates that a user-defined rule should take precedence over the author's style sheets.\
+-- ex : <!-- p { color: #ff0000; } p { color: #000000; } -->
+
+-----------------------------------------------------------MEDIA TYPES----------------------------------------------------------------
+-----------------------THE @MEDIA RULE--------------
+--- The @media rule specifies the target media types (separated by commas) of a set of rules.
+-- ex :
+  @media print {
+body { font-size: 10pt }
+}
+@media screen {
+body { font-size: 12pt }
+}
+@media screen, print {
+body { line-height: 1.2 }
+}
+---------------------------------------------------------------PRINTING-------------------------------------------------------------
+--- You can use CSS to change the appearance of your web page when it is printed on a paper. You can specify one font for the screen version and another for the print version.
+-- ex :
+@media screen
+{
+p.bodyText {font-family:verdana, arial, sans-serif;}
+}
+@media print
+{
+p.bodyText {font-family:georgia, times, serif;}
+}
+@media screen, print
+{
+p.bodyText {font-size:10pt}
+}

@@ -1,0 +1,12 @@
+  Property                     Description
+- azimuth                      Describes the position of a sound source along the horizontal axis of the listener's environment.
+- background                   Shorthand for all background properties
+- background-attachment        Determines if the background image is fixed in the window or scrolls as the document scrolls.
+- background-color             Sets the background color of an element
+- background-image             Sets the background image of an element
+- background-position          Sets the initial position of the element's background image.
+- background-repeat            Determines how the background image is repeated across an element.
+- border                       Sets all four an element's  border's
+- border-bottom                Sets an element's bottom borders
+- border-bottom-width          Sets the thickness of an element's bottom border.
+- border-collapse              Sets the table border rendering algorithm

@@ -9,4 +9,106 @@
 - border                       Sets all four an element's  border's
 - border-bottom                Sets an element's bottom borders
 - border-bottom-width          Sets the thickness of an element's bottom border.
-- border-collapse              Sets the table border rendering algorithm
+- border-collapse              Sets the table border rendering algorithm.
+- border-color                 Sets the color of all four of an element's borders; default is the color of the element.
+- border-left-color            Sets the color of an element's left borders; default is the color of the element.
+- border-right-color           Sets the color of an element's right borders; default is the color of the element.
+- border-top-color             Sets the color of an element's top borders; default is the color of the element.
+- border-bottom-color          Sets the color of an element's bottom borders; default is the color of the element.
+- border-left                  Sets an element's left border; value is one or more of a color, a value for border-left-width, and a value for border-style.
+- border-left-width            Sets the thickness of an element's left border.
+- border-right                 Sets an element's right border; value is one or more of a color, a value for border-right-width, and a value for border-style.
+- border-right-width           Sets the thickness of an element's right border.
+- border-spacing               With separate borders set the spacing between borders. One value sets vertical and horizontal spacing and two values sets horizontal and vertical spacing respectively.
+- border-style                 Sets the style of all four of an element's borders.
+- border-top                   Sets an element's top border; value is one or more of a color, a value for border-top-width, and a value for border-style.
+- border-top-width             Sets the thickness of an element's top border.
+- border-width                 Sets the thickness of all four of an element's borders.
+- bottom                       Used with the position property to place the bottom edge of an element.
+- caption-side                 Sets the position for a table caption
+- clear                        Sets which margins of an element must not be adjacent to a floating element; the element is moved down until that margin is clear
+- clip                         Sets the clipping mask for an element
+- color                        Sets the color of an element
+- content                      Inserts generated content around an element.
+- counter-increment            Increments a counter by 1; value is a list of counter names, with each name optionally followed by a value by which it is incremented.
+- counter-reset                Resets a counter to zero; value is a list of counter names, with each name optionally followed by a value to which it is reset.
+- cursor                       Defines the shape of the cursor
+- direction                    Defines the direction of flow of an element content
+- display                      Controls how an element is displayed
+- empty-cells                  With separate borders, hides empty cells in a table.
+- float                        Determines if an element floats to the left or right, allowing text to wrap around it or be displayed inline.
+- font                         Sets all the font attributes for an element.
+- font-family                  Defines the font for an element, either as a specific font or as one of the generic.
+- font-size                    Defines the font size
+- font-size-adjust             Adjusts the current font's aspect ratio
+- font-stretch                 Determines the amount to stretch the current font
+- font-style                   Defines the style of the face, either normal or some type of slanted style
+- font-variant                 Defines a font to be in small caps
+- font-weight                  Defines the font weight. if a number is used, it must be a multiple of 100 between 100 and 900; 400 is normal, 700 is the same as the keyword bold.
+- height                       Defines the height of an element.
+- left                         Used with the position property to place the left edge of an element.
+- letter-spacing               Inserts additional space between text characters.
+- line-height                  Sets the distance between adjacent text baselines.
+- list-style                   Defines list-related styles
+- list-style-image             Defines an image to be used as a list item's marker.
+- list-style-position          Indents or extends (default) a list item's marker with respect to the item's content.
+- list-style-type              Defines a list item's marker either for unordered lists (circle, disc, or square) or for ordered lists (decimal, loweralpha, lower-roman, none, upper-alpha, or upper-roman)
+- margin                       Defines all four of an element's margins
+- margin-bottom                Defines the bottom margin of an element.
+- margin-left                  Defines the left margin of an element.
+- margin-right                 Defines the right margin of an element.
+- margin-top                   Defines the top margin of an element.
+- marker-offset                The marker-offset property can be used in bulleted lists for specifying the distance between the nearest border edges of a marker box (or bullet) and its associated principal box.
+- marks                        The marks property is used to set crop marks and cross marks on paged media. This is used with the @page rule.
+- max-height                   max-height property is used to constrain the height of an element.
+- max-width                    max-width property is used to set the maximum width of an element.
+- min-height                   min-height property is used to constrain the height of an element.
+- min-width                    min-width property is used to constrain the width of an element.
+- orphans                      Sets the minimum number of lines allowed in an orphaned paragraph fragment
+- outline                      The outline property is a shorthand property to specify all outline properties.
+- outline-color                The outline-color property is used to specify the color of the outline. Note that, unlike the border property, outline does not take up extra space and it can be non-rectangular.
+- outline-color-style          The outline-style property is used to specify the style of the outline. Note that, unlike the border property, outline does not take up extra space and it can be non-rectangular.
+- outline-width                The outline-color property is used to specify the color of the outline. Note that, unlike the border property, outline does not take up extra space and it can be non-rectangular.
+- overflow                     Determines how overflow content is rendered.
+- padding                      Defines all four padding amounts around an element.
+- padding-bottom               Defines the bottom padding of an element.
+- padding-left                 Defines the left padding of an element.
+- padding-right                Defines the right padding of an element.
+- padding-top                  Defines the top padding of an element.
+- page                         Associates a named page layout with an element.
+- page-break-after             Forces or suppresses page breaks after an element.
+- page-break-before            Forces or suppresses page breaks before an element.
+- page-break-inside            Suppresses page breaks within an element.
+- position                     Sets the positioning model for an element.
+- quotes                       Sets the quote symbols used to quote text.
+- richness                     Sets the richness of the voice, from 0 (flat) to 100 (mellifluous).
+- right                        Used with the position property to place the right edge of an element.
+- size                         The size property is used in paged media to specify the size of the page.
+- table-layout                 Determines the table-rendering algorithm.
+- text-align                   Sets the text alignment style for an element.
+- text-decoration              Defines any decoration for the text; values may be combined.
+- text-indent                  Defines the indentation of the first line of text in an element.
+- text-shadow                  Creates text drop shadows of varying colors and offsets.
+- text-transform               Transforms the text in the element accordingly.
+- top                          Used with the position property to place the top edge of an element.
+- vertical-align               Sets the vertical positioning of an element.
+- visibility                   Determines if an element is visible in the document or table.
+- white-space                  Defines how whitespace within an element is handled.
+- widows                       Sets the minimum number of lines allowed in a widowed paragraph fragment.
+- width                        Defines the width of an element.
+- word-spacing                 Inserts additional space between words.
+- z-index                      Sets the rendering layer for the current element.
+
+-----------------------PSEUDO-CLASSES & PSEUDO-ELEMENTS-------------------------------------------------------------------
+property                                Description
+:active                                 Use this class to add special effect to an activated element.
+:focus                                  Use this class to add special effect to an element while the element has focus.
+:hover                                  Use this class to add special effect to an element when you mouse over it.
+:link                                   Use this class to add special effect to an unvisited link.
+:visited                                Use this class to add special effect to a visited link.
+:first-child                            Use this class to add special effect to an element that is the first child of some other element.
+:lang                                   Use this class to specify a language to use in a specified element.
+:first-letter                           Use this element to add special effect to the first letter of a text.
+:first-line                             Use this element to add special effect to the first line of a text.
+:before                                 Use this element to insert some content before an element.
+:after                                  Use this element to insert some content after an element.

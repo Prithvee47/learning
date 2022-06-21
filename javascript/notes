@@ -1,1 +1,11 @@
-variable is a like a 
+What is variable (var) ?
+variable is a like a container , in which we can we can store a value to use it over and over again in our code instead of writing the value every time we have to use it.
+
+--Different types of javascript data types
+- Number    : floating point numbers, for decimals and integers.
+- string    : sequence of characters, used for text
+- boolean   : logical data type that can only be true or false
+- undefined : Data type of a variable that does not have a value yet
+- null      : also means "non-existent"
+
+--Javascript has dynamic typing in which data types are automatically assigned to variables.
